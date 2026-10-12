@@ -54,6 +54,8 @@ Screenshots of EffectCraft itself, rendered headlessly, showing only procedurall
 | `docs/images/effectcraft-3d.png` | EffectCraft contributors | Original work: screenshot of EffectCraft (EffectCraft Classic 3D) | MIT OR Apache-2.0 |
 | `docs/images/effectcraft-graph-editor.png` | EffectCraft contributors | Original work: screenshot of EffectCraft (EffectCraft Graph Editor) | MIT OR Apache-2.0 |
 | `docs/images/effectcraft-effects.png` | EffectCraft contributors | Original work: screenshot of EffectCraft (EffectCraft effects) | MIT OR Apache-2.0 |
+| `docs/images/tint-swap-before.png` | EffectCraft contributors (UI); @RavoxX (capture) | Original work: offscreen EffectCraft capture before #963, showing a generated solid with Tint | MIT OR Apache-2.0 |
+| `docs/images/tint-swap-after.png` | EffectCraft contributors (UI); @RavoxX (capture) | Original work: offscreen EffectCraft capture after clicking Tint's Swap Colors button | MIT OR Apache-2.0 |
 | `docs/images/effectcraft-render-queue.png` | EffectCraft contributors | Original work: screenshot of EffectCraft (EffectCraft Render Queue panel with the demo compositions queued for H.264 and ProRes export) | MIT OR Apache-2.0 |
 
 ## Code-drawn assets (original work, MIT OR Apache-2.0)

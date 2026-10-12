@@ -1,0 +1,8 @@
+asset: tint-swap-before.png
+title: Tint controls before adding Swap Colors
+author: EffectCraft contributors (UI); @RavoxX (capture)
+source: original work
+license: MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT or ../../LICENSE-APACHE
+added: 2026-10-12 by @RavoxX
+notes: Offscreen EffectCraft at 9efe7533, with a generated black solid mapped to red. No third-party media. See tint-swap.md for reproduction.

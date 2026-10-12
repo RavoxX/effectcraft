@@ -1,6 +1,6 @@
 # Effects parity
 
-> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-10-10 · **Change:** major (first effects parity checklist: presence, GPU, fidelity and presets against After Effects 2026 26.5) · **Target:** Adobe After Effects 2026
+> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-10-12 · **Change:** minor (Tint's Swap Colors control) · **Target:** Adobe After Effects 2026
 
 Effects are the deepest single area of After Effects. This page separates the four questions
 that a single "306 of 306" hides: does each effect exist, does it run fast, does it look like
@@ -30,7 +30,7 @@ corpus compares renders, each effect is assumed to differ somewhere, and users k
 | Audio | 13 | 0 | CPU by design (applied in the mixdown) |
 | Blur & Sharpen | 16 | 15 | Gaussian Blur interaction and output to be measured first ([fidelity/ae-2026-acceptance.md](fidelity/ae-2026-acceptance.md)) |
 | Channel | 13 | 13 | — |
-| Color Correction | 40 | 40 | Apply Color LUT (#514); 32-bpc blending differences affect looks (#494); ACES 2.0 / OCIO 2.5 (26.5) |
+| Color Correction | 40 | 40 | Tint's Swap Colors control is implemented (#963), with one-step undo and current-layer-time keying; engine and pointer-interaction regressions. Apply Color LUT (#514); 32-bpc blending differences affect looks (#494); ACES 2.0 / OCIO 2.5 (26.5) |
 | Distort | 39 | 35 | Mesh Warp can't be dragged in the viewer (#303); CC Power Pin Unstretch (#534, community fix pending); Liquify has no viewer brush |
 | Expression Controls | 9 | 9 | — |
 | Generate | 26 | 25 | Fractal on the CPU (needs f64), Reset doesn't work (#526); Write-on drops marks when animated (#536, fix pending) |
@@ -64,4 +64,5 @@ the GPU is performance, not parity.
 
 | Date | Change | Summary |
 |---|---|---|
+| 2026-10-12 | minor | Tint's Swap Colors button and agent-drivable command (#963); undo/redo, instance targeting, animated layer-time edits and invalid-input tests |
 | 2026-10-10 | major | First effects parity checklist |

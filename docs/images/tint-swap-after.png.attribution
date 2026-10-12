@@ -1,0 +1,8 @@
+asset: tint-swap-after.png
+title: Tint controls after clicking Swap Colors
+author: EffectCraft contributors (UI); @RavoxX (capture)
+source: original work
+license: MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT or ../../LICENSE-APACHE
+added: 2026-10-12 by @RavoxX
+notes: Offscreen EffectCraft with the #963 fix, after clicking Swap Colors. The same generated black solid is now mapped to blue. No third-party media. See tint-swap.md for reproduction.
